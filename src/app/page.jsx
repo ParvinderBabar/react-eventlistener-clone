@@ -94,14 +94,14 @@ export default function Home() {
       <h1>Day10</h1>
       <hr />
       <h1>Toggle the box</h1>
-      <Square divColor1={divColor}  onClick={changeColor} />
+      <Square divColor={divColor}  onClick={changeColor} />
       <hr></hr>
       {/* <h1>Mirror</h1>
       <input type="text" onChange={textDisplay} ></input><br>
       </br> */}
       <label>{ text}</label>
       <h1>Mirror</h1>
-      <Mirror textdisp={text} onChange={textDisplay} />
+      <Mirror onChange={textDisplay} />
       <hr />
       
         <h1>Counter</h1>
